@@ -5,8 +5,6 @@ on:
 
 jobs:
   hahaha:
-    timeout-minutes: 10
-    if: contains(github.head_ref, 'dependabot/npm_and_yarn')
     runs-on: ubuntu-18.04
     steps:
       - run: git branch
